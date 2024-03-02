@@ -7,19 +7,71 @@
   </head>
   <body>
     <h1>HTML Form</h1>
-    <h3>Youtube</h3>
-    <form action="https://www.youtube.com/results" target="_blank">
-      <input
-        type="text"
-        name="search_query"
-        placeholder="Enter text to search"
-      />
-      <button>Search on Youtube</button> 
+    <hr />
+    <h2>Login Page</h2>
+    <form action="/">
+      <p>
+        <label for="name">Name :</label>
+        <input id="name" type="text" placeholder="Enter your name" />
+      </p>
+      <p>
+        <label for="em">Email :</label>
+        <input id="em" type="email" placeholder="Enter your email " />
+      </p>
+      <p>
+        <label for="cn">Contact No. :</label>
+        <input id="cn" type="number" placeholder="Enter your Mobile Number " />
+      </p>
+      <p>
+        <label for="pass">Password :</label>
+        <input id="pass" type="password" placeholder="Enter your password " />
+      </p>
     </form>
-    <h3>Flipkart</h3>
-    <form action="https://www.flipkart.com/search" target="_blank">
-      <input type="text" name="q" placeholder="Enter product to search" />
-      <button>Search on Flipkart</button> 
-    </form>
+    <hr />
+    <div hidden>
+      <h3>Youtube</h3>
+      <form action="https://www.youtube.com/results" target="_blank">
+        <input
+          type="text"
+          name="search_query"
+          placeholder="Enter text to search"
+        />
+        <button>Search on Youtube</button>
+      </form>
+
+      <h3>Flipkart</h3>
+      <form action="https://www.flipkart.com/search" target="_blank">
+        <label for="connect">Flipkart Search</label>
+        <input
+          id="connect"
+          type="text"
+          name="q"
+          placeholder="Enter product to search"
+        />
+        <button>Search on Flipkart</button>
+      </form>
+
+      <h3>My Form</h3>
+      <form action="https://www.flipkart.com/search" target="_blank">
+        <input type="text" name="a" />
+        <input type="text" name="b" />
+        <input type="text" name="q" />
+        <button>Submit</button>
+      </form>
+
+      <h3>Different Input Type</h3>
+      <form action="/">
+        <input type="email" required /><br />
+        <input type="password" minlength="8" maxlength="12" required /><br />
+        <input type="number" max="100" /><br />
+        <input type="checkbox" /><br />
+        <input type="color" /><br />
+        <input type="file" /><br />
+        <input type="range" /><br />
+        <input type="datetime-local" /><br />
+        <input type="submit" /><br />
+        <button type="reset">Reset</button>
+      </form>
+    </div>
   </body>
 </html>
