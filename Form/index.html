@@ -12,23 +12,50 @@
     <form action="/">
       <p>
         <label for="name">Name :</label>
-        <input id="name" type="text" placeholder="Enter your name" />
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+        />
       </p>
       <p>
         <label for="em">Email :</label>
-        <input id="em" type="email" placeholder="Enter your email " />
+        <input
+          id="em"
+          type="email"
+          name="email"
+          placeholder="Enter your email "
+          required
+        />
       </p>
       <p>
         <label for="cn">Contact No. :</label>
-        <input id="cn" type="number" placeholder="Enter your Mobile Number " />
+        <input
+          id="cn"
+          type="number"
+          name="mobile"
+          placeholder="Enter your Mobile Number "
+        />
       </p>
       <p>
         <label for="pass">Password :</label>
-        <input id="pass" type="password" placeholder="Enter your password " />
+        <input
+          id="pass"
+          type="password"
+          name="pass"
+          placeholder="Enter your password "
+          required
+        />
+      </p>
+      <p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
       </p>
     </form>
     <hr />
-    <div hidden>
+    <br />
+    <div>
       <h3>Youtube</h3>
       <form action="https://www.youtube.com/results" target="_blank">
         <input

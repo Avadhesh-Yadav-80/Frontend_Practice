@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Login Page</title>
+  </head>
+  <body>
+    <div style="margin: auto; width: 30%">
+      <img
+        src="/Form/AMAZON.jpeg"
+        alt="Amazon"
+        style="width: 100%; max-width: 150px"
+      />
+      <form action="https://www.amazon.in/s" style="font-family: sans-serif">
+        <h2>Create Account</h2>
+        <p>
+          <label for="name"
+            >Your name<br />
+            <input type="text" id="name" placeholder="First and last Name" />
+          </label>
+        </p>
+        <p>
+          <label for="Mobile number"
+            >Mobile Number<br />
+            <input
+              type="number"
+              id="Mobile number"
+              placeholder="Mobile number"
+              maxlength="10"
+            />
+          </label>
+        </p>
+        <p>
+          <label for="email"
+            >Email<br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter Your Email Address"
+            />
+          </label>
+        </p>
+        <p>
+          <label for="pass"
+            >Password<br />
+            <input
+              type="password"
+              id="pass"
+              placeholder="At least 6 characters"
+              minlength="6"
+              maxlength="12
+              "
+              required
+            />
+          </label>
+        </p>
+        <p>
+          <label for="check">
+            <input type="checkbox" id="check" checked required />I agree term
+            and conditions
+          </label>
+        </p>
+        <button type="submit">Create Account</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
