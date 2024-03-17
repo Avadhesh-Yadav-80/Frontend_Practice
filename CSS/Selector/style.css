@@ -1,0 +1,26 @@
+
+/* we use [] to select attribute  */
+[xavier] {
+  background-color: hotpink;
+}
+[xavier="web"] {
+  background-color: yellowgreen;
+}
+[xavier="developer"] {
+  background-color: blue;
+}
+
+[class] {
+  background-color: burlywood;
+}
+
+/* descdent selector */
+ul p {
+  background-color: chartreuse;
+}
+
+/* pseudo selector */
+
+h1:hover {
+  color: blueviolet;
+}

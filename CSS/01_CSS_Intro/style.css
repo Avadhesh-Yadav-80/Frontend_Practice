@@ -1,0 +1,11 @@
+h1 {
+  color: red;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  /* text-decoration: underline wavy; */
+  text-align: center;
+}

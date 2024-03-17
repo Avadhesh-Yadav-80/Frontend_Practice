@@ -1,0 +1,18 @@
+#css {
+  background-color: blueviolet;
+}
+
+/* cascading */
+li {
+  background-color: hotpink;
+}
+li {
+  background-color: goldenrod;
+}
+
+/* specificity : it does not depend on postion of selector*/
+
+.html {
+  background-color: burlywood;
+}
+
